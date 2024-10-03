@@ -14,6 +14,8 @@ async function getChampionList() {
     return Object.keys(champions.data);
 }
 
+
+
 // Obtener las skins de un campeón específico
 async function getChampionSkins(champion) {
     const championData = await fetch(`${DDragonBaseURL}/${patchVersion}/data/en_US/champion/${champion}.json`);
