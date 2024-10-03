@@ -3,6 +3,7 @@ const REGION = 'euw1'; // Región de EUW
 const DDragonBaseURL = 'https://ddragon.leagueoflegends.com/cdn';
 const patchVersion = '13.19.1'; // Versión del juego
 
+
 // Obtener la lista de campeones
 async function getChampionList() {
     const response = await fetch(`https://${REGION}.api.riotgames.com/lol/platform/v3/champion-rotations?api_key=${API_KEY}`);
