@@ -1,4 +1,4 @@
-const API_KEY = 'RGAPI-c65a076a-e71e-4a13-9886-9f0da12c855d'; //API key
+const API_KEY = 'RGAPI-381a41b3-fabf-4d84-965b-7bc7634f5f84'; //API key
 const REGION = 'euw1'; // Región de EUW
 const DDragonBaseURL = 'https://ddragon.leagueoflegends.com/cdn';
 const patchVersion = '13.19.1'; // Versión del juego
