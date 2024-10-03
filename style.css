@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/33c3ee76009313.5c5ca8e8c3867.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 94vh;
+}
+
+#splash-art-container {
+    margin: 20px auto;
+    width: 800px; /* Nuevo tamaño: más grande */
+    height: 450px; /* Mantiene la relación de aspecto 16:9 */
+    background-color: #ddd;
+    background-size: 2400px 1600px; /* Tamaño del splash art completo */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#quiz {
+    margin-top: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+li.list-group-item.text-danger {
+    width: 350px;
+}
+
+#buscador {
+    margin-top: 35px;
+}
+
+
+h3{
+    color: white !important;
+}
