@@ -1,8 +1,7 @@
 const API_KEY = 'RGAPI-381a41b3-fabf-4d84-965b-7bc7634f5f84'; //API key
 const REGION = 'euw1'; // Región de EUW
-const DDragonBaseURL = 'https://ddragon.leagueoflegends.com/cdn';
+const DDragonBaseURL = 'http://ddragon.leagueoflegends.com/cdn';
 const patchVersion = '13.19.1'; // Versión del juego
-
 
 // Obtener la lista de campeones
 async function getChampionList() {
@@ -13,8 +12,6 @@ async function getChampionList() {
     const champions = await championData.json();
     return Object.keys(champions.data);
 }
-
-
 
 // Obtener las skins de un campeón específico
 async function getChampionSkins(champion) {
