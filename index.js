@@ -1,6 +1,6 @@
 const API_KEY = 'RGAPI-43faf63f-4921-4083-a6dd-5583cf4ca4b1'; //API key
 const REGION = 'euw1'; // Región de EUW
-const DDragonBaseURL = 'http://ddragon.leagueoflegends.com/cdn';
+const DDragonBaseURL = 'https://ddragon.leagueoflegends.com/cdn';
 const patchVersion = '13.19.1'; // Versión del juego
 
 // Obtener la lista de campeones
