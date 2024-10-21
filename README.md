@@ -1,2 +1,1 @@
-Cosas por hacer:
--Añadir resultado final si acierta, mostrar splasart final en pantalla grande popup
+https://mikcy22.github.io/LoLQuizCaracter/
